@@ -4,13 +4,11 @@ You can use this as a resource while you are trying to get through with the Code
 
 - Write a function that returns the sum of two numbers.
 
-``
-function add(param1, param2) {
-    return param1 + param2; 
-   }
-let sum = add(4,6);
-console.log(sum);
-``
+``function add(param1, param2) {``
+``    return param1 + param2; ``
+``   } ``
+``let sum = add(4,6); ``
+``console.log(sum);``
 
 - Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
