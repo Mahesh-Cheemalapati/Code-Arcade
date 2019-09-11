@@ -5,16 +5,28 @@ You can use this as a resource while you are trying to get through with the Code
 - Write a function that returns the sum of two numbers.
 
 ``
+
+
+
+
 function add(param1, param2) {       
    return param1 + param2;
       } 
    let sum = add(4,6); 
    console.log(sum);
+   
+   
+   
+   
 ``
 
 - Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
 ``
+
+
+
+
 function centuryFromYear(year) {   
    const rem = year%100;
    const cent = parseInt(year/100);
@@ -25,11 +37,19 @@ function centuryFromYear(year) {
    return cent; 
    }   
  }
+ 
+ 
+ 
+ 
 ``
 
 - Given the string, check if it is a palindrome.
 
 ``
+
+
+
+
 function checkPalindrome(inputString) { 
    let newStr= "";  
    let n = inputString.length-1;
@@ -44,11 +64,19 @@ function checkPalindrome(inputString) {
    } 
  }
  checkPalindrome("racecar");
+ 
+ 
+ 
+ 
 ``
  
  - Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
  
  ``
+ 
+ 
+ 
+ 
  function adjacentElementsProduct(inputArray) {
   let n = inputArray.length-1;
     let prevVal = 0;
@@ -61,11 +89,19 @@ function checkPalindrome(inputString) {
   }
     return prevVal;
 }
+
+
+
+
 ``
 
 - Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
 `` 
+
+
+
+
 let cache = new Map();
 function shapeArea(n) {
     if(n === 1){
@@ -73,15 +109,25 @@ function shapeArea(n) {
     }    
     return shapeArea(n-1) + 4*(n-1);    
 }
+
+
+
+
 `` 
 
 - Making array consecutive
 
 ``
+
+
+
+
 function makeArrayConsecutive2(statues) {   
+
     statues = sort(statues);
     let prev = 0;
     let statuesNeeded = 0;
+    
     statues.forEach((item, index)=>{        
         if(index === 0){
             prev = item;
@@ -92,10 +138,18 @@ function makeArrayConsecutive2(statues) {
     });
     return statuesNeeded;
 }
+
+
+
+
 ``
 -Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
 
 ``
+
+
+
+
 function almostIncreasingSequence(arr) {
  var bad=0
   for(var i=1;i<arr.length;i++) if(arr[i]<=arr[i-1]) {
@@ -106,10 +160,16 @@ function almostIncreasingSequence(arr) {
   return true
 
 }
+
+
+
+
 ``
 - Matrix Sum Element (CodeBots Room selection)
 
 `` 
+
+
 function matrixElementsSum(matrix) {
     
            let set = new Set();
@@ -138,13 +198,20 @@ function matrixElementsSum(matrix) {
     }
         return count;
 }
+
+
+
 ``
 - Given an array of strings, return another array containing all of its longest strings.
 
 ``
+
+
 function allLongestStrings(inputArray) {
+
     let oldLength = 0;
     let newArray = [];
+    
         for(let i=0; i<=inputArray.length-1; i++){
             let newLength = inputArray[i].length;
             if(oldLength<newLength){
@@ -160,13 +227,23 @@ function allLongestStrings(inputArray) {
         return newArray;
     }
 let inputArray = ["aba", "aa", "ad", "vcd", "aba"];
+
 allLongestStrings(inputArray);
+
+
+
 ``
 - Given two strings, find the number of common characters between them.
 
 ``
+
+
+
+
 function commonCharacterCount(s1, s2) {
+
     let count = 0
+    
     for(let char of s1){
         let index = s2.indexOf(char);
        if(index != -1){
@@ -179,17 +256,26 @@ function commonCharacterCount(s1, s2) {
     return count;    
 }
 
+
+
+
 ``
 
 - Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.
 
 ``
+
+
+
+
 function isLucky(n) {
+
    let val = n.toString();
    let newVal = (val.length)/2;
    let i=0;
    let firstHalf=0;
    let secondHalf=0;
+   
    for(char of val){
        if(i<newVal){
         firstHalf+= parseInt(char);
@@ -209,4 +295,8 @@ function isLucky(n) {
         return false;
     }
 }
+
+
+
+
 ``
