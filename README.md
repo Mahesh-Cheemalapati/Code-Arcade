@@ -27,7 +27,6 @@ You can use this as a resource while you are trying to get through with the Code
 
 3. Given the string, check if it is a palindrome.
 
->/* Given the string, check if it is a palindrome.*/
 >function checkPalindrome(inputString) {
 >   // declaring a newStr variable to strore the inputString after reversing
 >   let newStr= "";
