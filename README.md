@@ -56,18 +56,20 @@ You can use this as a resource while you are trying to get through with the Code
 
 - Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
-`` 
-   let cache = new Map();
+```
+let cache = new Map();
    function shapeArea(n) {
        if(n === 1){
           return 1;
        }    
        return shapeArea(n-1) + 4*(n-1);    
-   }`` 
+   }
+``` 
 
 - Making array consecutive
 
-```function makeArrayConsecutive2(statues) {   
+```
+function makeArrayConsecutive2(statues) {   
        statues = sort(statues);
        let prev = 0;
        let statuesNeeded = 0;
@@ -85,7 +87,7 @@ You can use this as a resource while you are trying to get through with the Code
    
 - Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
 
-``
+```
    function almostIncreasingSequence(arr) {
     var bad=0
      for(var i=1;i<arr.length;i++) if(arr[i]<=arr[i-1]) {
@@ -95,10 +97,10 @@ You can use this as a resource while you are trying to get through with the Code
      }
      return true
    }
-``
+```
 - Matrix Sum Element (CodeBots Room selection)
 
-`` 
+``` 
    function matrixElementsSum(matrix) {    
               let set = new Set();
                let count = 0;         
@@ -125,10 +127,10 @@ You can use this as a resource while you are trying to get through with the Code
        }
            return count;
    }
-``
+```
 - Given an array of strings, return another array containing all of its longest strings.
 
-``
+```
             function allLongestStrings(inputArray) {
                 let oldLength = 0;
                 let newArray = [];   
@@ -145,30 +147,30 @@ You can use this as a resource while you are trying to get through with the Code
                     }
                     console.log(newArray);
                     return newArray;
-                }``
+                }
+```
 
 - Given two strings, find the number of common characters between them.
 
-``
-            function commonCharacterCount(s1, s2) {
-                let count = 0
-                for(let char of s1){
-                    let index = s2.indexOf(char);
-                   if(index != -1){
-                      let s3 =  s2.split('');
-                       s3.splice(index, 1);
-                       s2 = s3.join('');
-                       count++;
-                   }
-                }    
-                return count;    
+```
+     function commonCharacterCount(s1, s2) {
+     let count = 0
+     for(let char of s1){
+              let index = s2.indexOf(char);
+              if(index != -1){
+              let s3 =  s2.split('');
+              s3.splice(index, 1);
+              s2 = s3.join('');
+              count++;
             }
-
-``
+          }    
+      return count;    
+    }
+```
 
 - Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.
 
-``
+```
             function isLucky(n) {
                let val = n.toString();
                let newVal = (val.length)/2;
@@ -195,6 +197,6 @@ You can use this as a resource while you are trying to get through with the Code
                 }
             }
 
-``
+```
 
 > Will update new solutions soon (weekly)
