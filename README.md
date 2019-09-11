@@ -67,8 +67,7 @@ You can use this as a resource while you are trying to get through with the Code
 
 - Making array consecutive
 
-``
-   function makeArrayConsecutive2(statues) {   
+```function makeArrayConsecutive2(statues) {   
        statues = sort(statues);
        let prev = 0;
        let statuesNeeded = 0;
@@ -82,8 +81,9 @@ You can use this as a resource while you are trying to get through with the Code
        });
        return statuesNeeded;
    }
-``
--Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
+  ```
+   
+- Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
 
 ``
    function almostIncreasingSequence(arr) {
@@ -145,9 +145,8 @@ You can use this as a resource while you are trying to get through with the Code
                     }
                     console.log(newArray);
                     return newArray;
-                }
+                }``
 
-``
 - Given two strings, find the number of common characters between them.
 
 ``
@@ -198,4 +197,4 @@ You can use this as a resource while you are trying to get through with the Code
 
 ``
 
-** Will update new solutions soon (weekly) **
+> Will update new solutions soon (weekly)
