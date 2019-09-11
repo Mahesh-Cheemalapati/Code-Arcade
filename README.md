@@ -4,15 +4,18 @@ You can use this as a resource while you are trying to get through with the Code
 
 - Write a function that returns the sum of two numbers.
 
-``function add(param1, param2) {
+``
+function add(param1, param2) {
     return param1 + param2; 
    }
 let sum = add(4,6);
-console.log(sum);``
+console.log(sum);
+``
 
 - Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
-``function centuryFromYear(year) {    
+``
+function centuryFromYear(year) {    
    const rem = year%100;
    const cent = parseInt(year/100);   
 
@@ -22,11 +25,13 @@ console.log(sum);``
    else{
        return cent;
    }    
- }``
+ }
+ ``
 
 - Given the string, check if it is a palindrome.
 
-``function checkPalindrome(inputString) { 
+``
+function checkPalindrome(inputString) { 
    let newStr= "";  
    let n = inputString.length-1;
 
@@ -43,11 +48,13 @@ console.log(sum);``
    } 
  }
 
- checkPalindrome("racecar");``
+ checkPalindrome("racecar");
+ ``
  
  - Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
  
- ``function adjacentElementsProduct(inputArray) {
+ ``
+ function adjacentElementsProduct(inputArray) {
   let n = inputArray.length-1;
     let prevVal = 0;
     let tempVal = 0;
@@ -61,11 +68,13 @@ console.log(sum);``
 
 
     return prevVal;
-}``
+}
+``
 
 - Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
-`` let cache = new Map();
+`` 
+let cache = new Map();
 
 function shapeArea(n) {
     
@@ -73,13 +82,14 @@ function shapeArea(n) {
        return 1;
     }
     
-    return shapeArea(n-1) + 4*(n-1);
-    
-}`` 
+    return shapeArea(n-1) + 4*(n-1);    
+}
+`` 
 
 - Making array consecutive
 
-``function makeArrayConsecutive2(statues) {
+``
+function makeArrayConsecutive2(statues) {
     
     statues = sort(statues);
     
@@ -95,4 +105,6 @@ function shapeArea(n) {
         }
     });
     return statuesNeeded;
-}``
+}
+
+``
