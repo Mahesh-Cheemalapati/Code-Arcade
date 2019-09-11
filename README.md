@@ -32,16 +32,26 @@ You can use this as a resource while you are trying to get through with the Code
 >   let newStr= "";
 >   
 >   let n = inputString.length-1;
->   for (let i = n; i >=0; i--){
->   
+>
+>   for (let i = n; i >=0; i--) {
+>
 >       newStr += inputString[i];
+>
 >   }
 >   
 >   if (inputString === newStr) {
+>
 >       console.log(true); 
+>
 >   }
+>
 >   else {
+>
 >       console.log(false);
->   }
+>
 > }
-checkPalindrome("racecar");
+>
+> 
+> }
+>
+>  checkPalindrome("racecar");
