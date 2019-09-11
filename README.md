@@ -4,28 +4,33 @@ You can use this as a resource while you are trying to get through with the Code
 
 - Write a function that returns the sum of two numbers.
 
-`` function add(param1, param2) {       
-      return param1 + param2;
+```    
+      function add(param1, param2) {       
+         return param1 + param2;
          } 
       let sum = add(4,6); 
-      console.log(sum);``
+      console.log(sum);
+```
 
 - Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
-`` function centuryFromYear(year) {   
+```
+      function centuryFromYear(year) {   
       const rem = year%100;
       const cent = parseInt(year/100);
-      if(rem){
-      return cent +1; 
-      }
-      else{
-      return cent; 
-      }   
-   }``
+            if(rem){
+            return cent +1; 
+            }
+            else{
+            return cent; 
+            }   
+   }
+   ```
 
 - Given the string, check if it is a palindrome.
 
-`` function checkPalindrome(inputString) { 
+``` 
+      function checkPalindrome(inputString) { 
       let newStr= "";  
       let n = inputString.length-1;
       for (let i = n; i >=0; i--) {
@@ -37,12 +42,14 @@ You can use this as a resource while you are trying to get through with the Code
       else {
         console.log(false);
       } 
-    }``
+    }
+```
  
  - Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
  
- ``   function adjacentElementsProduct(inputArray) {
-     let n = inputArray.length-1;
+ ```
+      function adjacentElementsProduct(inputArray) {
+       let n = inputArray.length-1;
        let prevVal = 0;
        let tempVal = 0;
        for (let i = 0; i< n; i++) {
@@ -52,7 +59,8 @@ You can use this as a resource while you are trying to get through with the Code
        }
      }
        return prevVal;
-   }``
+   }
+```
 
 - Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
