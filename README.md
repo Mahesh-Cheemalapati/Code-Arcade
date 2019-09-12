@@ -9,6 +9,7 @@
 >The solutions have been provided in *Javascript*
 
 ### Intro
+This is the first section of Arcade
 
 #### The Journey Begins
  
