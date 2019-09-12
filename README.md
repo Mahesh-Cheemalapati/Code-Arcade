@@ -11,9 +11,6 @@
 ### Intro
 
 #### The Journey Begins
-
-<details> 
-  <summary>Click to view solutions</summary>
  
  - ***Write a function that returns the sum of two numbers.***
 
@@ -58,11 +55,8 @@ function checkPalindrome(inputString) {
 }
 ```
 
-</details>
 
 #### Edge of the Ocean 
-<details> 
-  <summary>Click to view solutions</summary>
  
 - ***Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.***
  
@@ -155,11 +149,8 @@ function matrixElementsSum(matrix) {
    return count;
 }
 ```
-</details>
 
 #### Smooth Sailing
-<details> 
-  <summary>Click to view solutions</summary>
 
 - ***Given an array of strings, return another array containing all of its longest strings.***
 
@@ -229,6 +220,4 @@ function isLucky(n) {
      }
  }
 ```
-</details>
-
 > Will update new solutions soon (weekly)
