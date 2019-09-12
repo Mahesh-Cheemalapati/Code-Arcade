@@ -2,7 +2,7 @@
 
 You can use this as a resource while you are trying to get through with the Code Arcade challenges. Use this as a reference if you get stuck anywhere!
 
-- Write a function that returns the sum of two numbers.
+1. Write a function that returns the sum of two numbers.
 
 ```  
 function add(param1, param2) {       
@@ -12,7 +12,7 @@ function add(param1, param2) {
   console.log(sum);
 ```
 
-- Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
+1. Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
 ```
 function centuryFromYear(year) {   
@@ -27,7 +27,7 @@ const cent = parseInt(year/100);
 }
 ```
 
-- Given the string, check if it is a palindrome.
+1. Given the string, check if it is a palindrome.
 
 ``` 
 function checkPalindrome(inputString) { 
@@ -45,7 +45,7 @@ function checkPalindrome(inputString) {
 }
 ```
  
- - Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+ 1. Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
  
  ```
  function adjacentElementsProduct(inputArray) {
@@ -62,7 +62,7 @@ function checkPalindrome(inputString) {
 }
 ```
 
-- Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
+1. Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
 ```
 let cache = new Map();
@@ -74,7 +74,7 @@ function shapeArea(n) {
 }
 ``` 
 
-- Making array consecutive
+1. Making array consecutive
 
 ```
 function makeArrayConsecutive2(statues) {   
@@ -93,7 +93,7 @@ function makeArrayConsecutive2(statues) {
    }
   ```
    
-- Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
+1. Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
 
 ```
 function almostIncreasingSequence(arr) {
@@ -106,7 +106,7 @@ function almostIncreasingSequence(arr) {
   return true
 }
 ```
-- Matrix Sum Element (CodeBots Room selection)
+1. Matrix Sum Element (CodeBots Room selection)
 
 ``` 
 function matrixElementsSum(matrix) {    
@@ -136,7 +136,7 @@ function matrixElementsSum(matrix) {
    return count;
 }
 ```
-- Given an array of strings, return another array containing all of its longest strings.
+1. Given an array of strings, return another array containing all of its longest strings.
 
 ```
 function allLongestStrings(inputArray) {
@@ -157,7 +157,7 @@ function allLongestStrings(inputArray) {
 }
 ```
 
-- Given two strings, find the number of common characters between them.
+1. Given two strings, find the number of common characters between them.
 
 ```
 function commonCharacterCount(s1, s2) {
@@ -175,7 +175,7 @@ function commonCharacterCount(s1, s2) {
 }
 ```
 
-- Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.
+1. Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.
 
 ```
 function isLucky(n) {
