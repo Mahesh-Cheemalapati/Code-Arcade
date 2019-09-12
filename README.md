@@ -1,8 +1,9 @@
 ## Code Arcade Solutions
 
-You can use this as a resource while you are trying to get through with the Code Arcade challenges. Use this as a reference if you get stuck anywhere!
+>You can use this as a resource while you are trying to get through with the Code Arcade challenges. 
+>The solutions have been provided in *Javascript*
 
-#### Write a function that returns the sum of two numbers.
+- ***Write a function that returns the sum of two numbers.***
 
 ```  
 function add(param1, param2) {       
@@ -12,7 +13,7 @@ function add(param1, param2) {
   console.log(sum);
 ```
 
-#### Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
+- ***Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.***
 
 ```
 function centuryFromYear(year) {   
@@ -27,7 +28,7 @@ const cent = parseInt(year/100);
 }
 ```
 
-#### Given the string, check if it is a palindrome.
+- ***Given the string, check if it is a palindrome.***
 
 ``` 
 function checkPalindrome(inputString) { 
@@ -45,7 +46,7 @@ function checkPalindrome(inputString) {
 }
 ```
  
-#### Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+- ***Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.***
  
  ```
  function adjacentElementsProduct(inputArray) {
@@ -62,7 +63,7 @@ function checkPalindrome(inputString) {
 }
 ```
 
-#### Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
+- ***Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.***
 
 ```
 let cache = new Map();
@@ -74,7 +75,7 @@ function shapeArea(n) {
 }
 ``` 
 
-#### Making array consecutive
+- ***Making array consecutive***
 
 ```
 function makeArrayConsecutive2(statues) {   
@@ -93,7 +94,7 @@ function makeArrayConsecutive2(statues) {
    }
   ```
    
-#### Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
+- ***Given a sequence of integers as an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.***
 
 ```
 function almostIncreasingSequence(arr) {
@@ -106,7 +107,7 @@ function almostIncreasingSequence(arr) {
   return true
 }
 ```
-#### Matrix Sum Element (CodeBots Room selection)
+- ***Matrix Sum Element (CodeBots Room selection)***
 
 ``` 
 function matrixElementsSum(matrix) {    
@@ -136,7 +137,7 @@ function matrixElementsSum(matrix) {
    return count;
 }
 ```
-#### Given an array of strings, return another array containing all of its longest strings.
+- ***Given an array of strings, return another array containing all of its longest strings.***
 
 ```
 function allLongestStrings(inputArray) {
@@ -157,7 +158,7 @@ function allLongestStrings(inputArray) {
 }
 ```
 
-#### Given two strings, find the number of common characters between them.
+- ***Given two strings, find the number of common characters between them.***
 
 ```
 function commonCharacterCount(s1, s2) {
@@ -175,7 +176,7 @@ function commonCharacterCount(s1, s2) {
 }
 ```
 
-#### Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.
+- ***Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half. Given a ticket number n, determine if it's lucky or not.***
 
 ```
 function isLucky(n) {
