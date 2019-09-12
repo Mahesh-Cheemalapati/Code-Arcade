@@ -13,8 +13,8 @@
 #### The Journey Begins
 
 <details> 
-  <summary>
-    - ***Write a function that returns the sum of two numbers.***
+  <summary>Click to view solutions</summary>
+      - ***Write a function that returns the sum of two numbers.***
 
 ```  
 function add(param1, param2) {       
@@ -57,10 +57,7 @@ function checkPalindrome(inputString) {
 }
 ```
 
-  </summary>
 </details>
-
-
 
 #### Edge of the Ocean 
 
