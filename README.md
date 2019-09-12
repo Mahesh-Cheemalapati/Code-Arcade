@@ -1,5 +1,9 @@
 ## Code Arcade Solutions
 
+>[Code Arcade](https://app.codesignal.com/) is a platform where you can practice coding and challenge people.
+>They have different categories and also have an ___Arcade___ section where you can practice,
+>before you challenge bots or other members.
+>
 >You can use this as a resource while you are trying to get through the Code Arcade challenges. 
 >
 >The solutions have been provided in *Javascript*
