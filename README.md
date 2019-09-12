@@ -1,6 +1,7 @@
 ## Code Arcade Solutions
 
->You can use this as a resource while you are trying to get through with the Code Arcade challenges. 
+>You can use this as a resource while you are trying to get through the Code Arcade challenges. 
+>
 >The solutions have been provided in *Javascript*
 
 - ***Write a function that returns the sum of two numbers.***
