@@ -8,6 +8,10 @@
 >
 >The solutions have been provided in *Javascript*
 
+###Intro
+
+####The Journey Begins
+
 - ***Write a function that returns the sum of two numbers.***
 
 ```  
@@ -50,7 +54,9 @@ function checkPalindrome(inputString) {
    } 
 }
 ```
- 
+
+####Edge of the Ocean 
+
 - ***Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.***
  
  ```
@@ -142,6 +148,8 @@ function matrixElementsSum(matrix) {
    return count;
 }
 ```
+####Smooth Sailing
+
 - ***Given an array of strings, return another array containing all of its longest strings.***
 
 ```
