@@ -1,4 +1,4 @@
-## Code Arcade Solutions
+# Code Arcade Solutions
 
 >[Code Arcade](https://app.codesignal.com/) is a platform where you can practice coding and challenge people.
 >They have different categories and also have an ___Arcade___ section where you can practice,
@@ -8,10 +8,10 @@
 >
 >The solutions have been provided in *Javascript*
 
-### Intro
+## Intro
 This is the first section of Arcade
 
-#### The Journey Begins
+### The Journey Begins
  
  - ***Write a function that returns the sum of two numbers.***
 
@@ -57,7 +57,7 @@ function checkPalindrome(inputString) {
 ```
 
 
-#### Edge of the Ocean 
+### Edge of the Ocean 
  
 - ***Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.***
  
@@ -151,7 +151,7 @@ function matrixElementsSum(matrix) {
 }
 ```
 
-#### Smooth Sailing
+### Smooth Sailing
 
 - ***Given an array of strings, return another array containing all of its longest strings.***
 
