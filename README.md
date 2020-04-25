@@ -221,4 +221,3 @@ function isLucky(n) {
      }
  }
 ```
-> Will update new solutions soon (weekly)
